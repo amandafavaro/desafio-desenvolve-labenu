@@ -18,12 +18,12 @@ nav {
 }
 
 nav a {
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
   text-transform: uppercase;
   color: #6ddad3;
   text-decoration: none;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 nav a:hover {
@@ -38,7 +38,7 @@ main {
   text-align: center;
 }
 
-.section h2 {
+.section--standart h2 {
   color: #6ddad3;
   font-size: 25px;
   padding: 40px 20px 0;
@@ -46,7 +46,7 @@ main {
   text-transform: uppercase;
 }
 
-.section p {
+.section--standart p {
   color: #ffffff;
   width: 50%;
   margin: 20px 20px 0;
@@ -61,14 +61,14 @@ main {
   display: inline-block;
 }
 
-#resposta {
-  padding: 5px 0 30px 0;
+#response {
+  padding: 0 0 40px 0;
   color: #132235;
   text-align: center;
   font-weight: bold;
 }
 
-.form {
+.form--standart {
   color: #ffffff;
   padding: 0 20px;
 }
@@ -97,7 +97,7 @@ main {
 .form__button {
   width: 100px;
   font-family: "Montserrat", sans-serif;
-  margin: 20px 0 0;
+  margin: 20px 0;
   padding: 10px;
   background: #132235;
   color: #6ddad3;
@@ -140,9 +140,10 @@ footer {
   .header__image {
     width: 90%;
     padding: 0 0 15px;
+    margin: 0;
   }
 
-  .section p,
+  .section--standart p,
   .section__image,
   .form__input,
   .form__textarea {
